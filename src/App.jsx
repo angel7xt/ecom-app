@@ -86,6 +86,7 @@ function ProductCard({product}){
       <div className="add-to-cart-circle" onClick={()=>console.log('hi')}>
         <img src="src\assets\icon-empty-cart-white.png"></img>
       </div>
+      
   <h1 className="card-product-name">{product.name}</h1>
   <h2 className="card-price">{product.prices[0].currency.symbol+product.prices[0].amount}</h2>
   </div>
